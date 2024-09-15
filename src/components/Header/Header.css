@@ -49,4 +49,8 @@ nav ul li a:hover {
     nav ul li a {
         font-size: 1.3rem;
     }
+
+    header {
+        margin-top: 8rem;
+    }
 }
