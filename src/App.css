@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -16,6 +20,7 @@ html, body, #root {
     height: 100vh;
     background-color: #f4ece6;
     font-family: 'Montserrat', sans-serif;
+    overflow: auto;
 }
 
 

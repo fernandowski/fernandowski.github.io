@@ -1,6 +1,6 @@
 .submit-button {
     display: inline-block;
-    margin-top: 0.5rem;
+    margin: 0.5rem;
     padding: 8px 60px;
     font-size: 1rem;
     font-weight: bold;
@@ -27,6 +27,10 @@
 .form-control-group label {
     margin-top: 5rem;
     font-weight: bold;
+}
+
+.form-control-group {
+    width: 100%;
 }
 
 .form-control-group input[type='text'],
@@ -68,7 +72,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 45%;
 }
 
 .contact-me-container {

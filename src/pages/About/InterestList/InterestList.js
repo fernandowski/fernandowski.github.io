@@ -19,7 +19,7 @@ function InterestList() {
         <div className='interests-list'>
             {interests.map(({name, link, title}) => {
                 return (
-                    <Interest name={name} link={link} title={title}/>
+                    <Interest key={name} name={name} link={link} title={title}/>
                 )
             })}
         </div>

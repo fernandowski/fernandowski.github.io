@@ -1,11 +1,10 @@
 header {
     color: white;
-    padding: 20px;
     position: sticky;
     top: 0;
     z-index: 1000;
     width: 100%;
-    padding-top: 150px;
+    margin-top: 3rem;
 }
 
 nav ul {
